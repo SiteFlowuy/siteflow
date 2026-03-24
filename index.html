@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Diseño Web Profesional en Uruguay | SiteFlow</title>
+    <meta name="description" content="Transforma la presencia digital de tu negocio con SiteFlow. Diseño web estratégico y landing pages premium en Uruguay enfocadas en generar confianza y multiplicar tus consultas.">
+    <meta name="keywords" content="diseño web Uruguay, landing pages Uruguay, páginas web para negocios, diseño web profesional, agencias de diseño web">
+    <meta name="author" content="SiteFlow">
+    <link rel="canonical" href="https://siteflow.uy">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        background: '#050505',
+                        surface: '#111111',
+                        surfaceHover: '#1a1a1a',
+                        primary: '#ffffff',
+                        secondary: '#a1a1aa',
+                        accent: '#3b82f6',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-background text-primary font-sans antialiased selection:bg-white/30 selection:text-white overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tighter flex items-center gap-2">
+                <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
+                    <div class="w-2 h-2 rounded-full bg-background"></div>
+                </div>
+                SiteFlow
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-secondary">
+                <a href="#enfoque" class="hover:text-primary transition-colors">Nuestro Enfoque</a>
+                <a href="#servicios" class="hover:text-primary transition-colors">Servicios</a>
+                <a href="#estilos" class="hover:text-primary transition-colors">Estilos</a>
+                <a href="#proceso" class="hover:text-primary transition-colors">Proceso</a>
+            </div>
+            <a href="https://wa.me/placeholder" target="_blank" class="hidden md:flex items-center gap-2 bg-white text-background px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-gray-200 transition-all">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                Hablemos
+            </a>
+            <button class="md:hidden text-white">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-40 pb-20 md:pt-52 md:pb-32 px-6 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_center,rgba(255,255,255,0.05),transparent_50%)]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10 gs-reveal">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-xs font-medium text-secondary mb-8">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                Agencia de Diseño Web en Uruguay
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
+                No vendemos páginas.<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Construimos autoridad.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-secondary mb-10 max-w-2xl mx-auto leading-relaxed">
+                Diseño web estratégico para negocios que entienden que la primera impresión define la venta. Elevamos tu percepción de marca para que dejes de competir por precio.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://wa.me/placeholder" target="_blank" class="w-full sm:w-auto px-8 py-4 bg-white text-background rounded-full font-semibold text-sm hover:bg-gray-200 transition-transform hover:scale-105 flex items-center justify-center gap-2">
+                    Elevar mi negocio
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <a href="#estilos" class="w-full sm:w-auto px-8 py-4 border border-white/10 bg-white/5 rounded-full font-semibold text-sm hover:bg-white/10 transition-colors flex items-center justify-center">
+                    Ver el impacto visual
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="enfoque" class="py-24 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="gs-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-tight">El diseño no es adorno.<br>Es estrategia.</h2>
+                <p class="text-secondary mb-6 text-lg leading-relaxed">
+                    En <strong>SiteFlow</strong> entendemos que tu sitio web no es un gasto técnico, es tu activo de ventas más importante trabajando 24/7.
+                </p>
+                <p class="text-secondary text-lg leading-relaxed mb-8">
+                    Mientras otras agencias se enfocan en hacer webs "lindas", nosotros diseñamos para generar <strong>confianza, diferenciación y resultados medibles</strong>. Convertimos visitantes curiosos en clientes seguros.
+                </p>
+                <div class="grid grid-cols-2 gap-6 pt-6 border-t border-white/10">
+                    <div>
+                        <h4 class="text-3xl font-bold mb-2">3s</h4>
+                        <p class="text-sm text-secondary">Para captar la atención de tu cliente ideal.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-3xl font-bold mb-2">75%</h4>
+                        <p class="text-sm text-secondary">Juzga la credibilidad de tu empresa por tu web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative gs-reveal border border-white/10 rounded-2xl overflow-hidden aspect-square md:aspect-[4/3] bg-surface">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="Desarrollo Web Profesional" class="w-full h-full object-cover opacity-60">
+                <div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qué Hacemos (Servicios) -->
+    <section id="servicios" class="py-24 px-6 bg-surface/50 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 gs-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Soluciones que escalan tu negocio</h2>
+                <p class="text-secondary max-w-2xl mx-auto">Sistemas digitales creados con un único propósito: que tu empresa crezca.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
+                        <i data-lucide="layout-template" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Landing Pages de Alta Conversión</h3>
+                    <p class="text-secondary text-sm leading-relaxed">Páginas de un solo objetivo diseñadas meticulosamente para captar leads o vender servicios específicos. Copywriting persuasivo y diseño sin fricciones.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal" style="transition-delay: 100ms;">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
+                        <i data-lucide="globe" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Web Corporativa Premium</h3>
+                    <p class="text-secondary text-sm leading-relaxed">Tu oficina principal en internet. Una estructura robusta que comunica autoridad, presenta a tu equipo y detalla tus servicios con elegancia.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal" style="transition-delay: 200ms;">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
+                        <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Optimización y Rediseño</h3>
+                    <p class="text-secondary text-sm leading-relaxed">¿Ya tienes web pero no vende? Analizamos los puntos de fuga, modernizamos la interfaz y optimizamos el flujo de usuarios para maximizar resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- El Diseño Comunica -->
+    <section id="estilos" class="py-24 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16 md:flex justify-between items-end gs-reveal">
+                <div class="max-w-2xl">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">El diseño comunica. ¿Qué dice el tuyo?</h2>
+                    <p class="text-secondary">Adaptamos la estética visual a la psicología de tu cliente ideal. Cada detalle tiene un porqué estratégico.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Style: Minimalista Premium -->
+                <div class="group relative rounded-2xl overflow-hidden border border-white/10 bg-surface gs-reveal">
+                    <div class="aspect-[4/3] bg-[#f5f5f7] p-6 relative flex flex-col justify-between">
+                        <div class="w-full h-4 bg-gray-200 rounded-full mb-4 w-1/3"></div>
+                        <div class="space-y-2">
+                            <div class="w-full h-2 bg-gray-200 rounded-full"></div>
+                            <div class="w-full h-2 bg-gray-200 rounded-full w-5/6"></div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-1">Minimalista Premium</h4>
+                        <p class="text-xs text-secondary mb-4">Transmite: Exclusividad, Claridad, Lujo.</p>
+                        <p class="text-sm text-gray-400">Ideal para: Arquitectos, Clínicas estéticas, Marcas High-End.</p>
+                    </div>
+                </div>
+
+                <!-- Style: Corporativo -->
+                <div class="group relative rounded-2xl overflow-hidden border border-white/10 bg-surface gs-reveal">
+                    <div class="aspect-[4/3] bg-[#004b87] p-6 relative flex flex-col justify-between">
+                        <div class="flex gap-2 mb-4">
+                            <div class="w-8 h-8 bg-white/20 rounded-md"></div>
+                            <div class="w-24 h-8 bg-white/10 rounded-md"></div>
+                        </div>
+                        <div class="w-full h-16 bg-white/10 rounded-md"></div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-1">Corporativo Sólido</h4>
+                        <p class="text-xs text-secondary mb-4">Transmite: Confianza, Seguridad, Institucionalidad.</p>
+                        <p class="text-sm text-gray-400">Ideal para: Estudios contables, Bufetes de abogados, B2B.</p>
+                    </div>
+                </div>
+
+                <!-- Style: Tecnológico -->
+                <div class="group relative rounded-2xl overflow-hidden border border-white/10 bg-surface gs-reveal">
+                    <div class="aspect-[4/3] bg-[#0a0a0a] p-6 relative flex flex-col justify-between border-b border-white/10">
+                        <div class="w-full h-full border border-green-500/30 rounded-lg p-4 bg-green-500/5">
+                            <div class="w-1/2 h-4 bg-green-500/50 rounded mb-2"></div>
+                            <div class="w-3/4 h-2 bg-green-500/30 rounded"></div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-1">Tech / Moderno</h4>
+                        <p class="text-xs text-secondary mb-4">Transmite: Innovación, Velocidad, Vanguardia.</p>
+                        <p class="text-sm text-gray-400">Ideal para: Startups, Agencias de Marketing, Software.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Trabajamos (Proceso) -->
+    <section id="proceso" class="py-24 px-6 border-t border-white/5 bg-surface/30">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-16 tracking-tight text-center gs-reveal">Un proceso ordenado y sin fricciones</h2>
+            
+            <div class="space-y-8">
+                <!-- Step 1 -->
+                <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
+                    <div class="text-2xl font-bold text-white/20">01</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Análisis Estratégico</h4>
+                        <p class="text-secondary text-sm">No diseñamos a ciegas. Entendemos tu modelo de negocio, tu cliente ideal y tus objetivos comerciales para definir la estructura de la web.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
+                    <div class="text-2xl font-bold text-white/20">02</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Diseño y Prototipado</h4>
+                        <p class="text-secondary text-sm">Creamos la identidad visual y el layout. Te presentamos un mockup navegable para que apruebes el look & feel antes de escribir una línea de código.</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
+                    <div class="text-2xl font-bold text-white/20">03</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Desarrollo Frontend</h4>
+                        <p class="text-secondary text-sm">Construimos la web con tecnologías modernas. Aseguramos tiempos de carga rápidos, responsive perfecto (mobile-first) y animaciones fluidas.</p>
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
+                    <div class="text-2xl font-bold text-white/20">04</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Ajustes y SEO</h4>
+                        <p class="text-secondary text-sm">Revisión conjunta, optimización para motores de búsqueda (SEO On-page) y pruebas de rendimiento en todos los dispositivos.</p>
+                    </div>
+                </div>
+                <!-- Step 5 -->
+                <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
+                    <div class="text-2xl font-bold text-white/20">05</div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Lanzamiento</h4>
+                        <p class="text-secondary text-sm">Tu nueva sucursal digital abierta al mundo. Entregamos el proyecto funcionando y listo para recibir tráfico y convertir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="py-24 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto text-center gs-reveal">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 tracking-tight">El retorno de invertir en calidad</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
+                    <i data-lucide="message-square-plus" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
+                    <h5 class="font-medium mb-1">Más Consultas</h5>
+                    <p class="text-xs text-secondary">Diseño enfocado a la acción.</p>
+                </div>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
+                    <i data-lucide="shield-check" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
+                    <h5 class="font-medium mb-1">Mayor Confianza</h5>
+                    <p class="text-xs text-secondary">Proyecta solidez institucional.</p>
+                </div>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
+                    <i data-lucide="award" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
+                    <h5 class="font-medium mb-1">Diferenciación</h5>
+                    <p class="text-xs text-secondary">Destaca sobre tu competencia.</p>
+                </div>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
+                    <i data-lucide="smartphone" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
+                    <h5 class="font-medium mb-1">Omnicanalidad</h5>
+                    <p class="text-xs text-secondary">Perfecto en PC y móviles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 px-6 border-t border-white/5 bg-surface/30">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center tracking-tight gs-reveal">Preguntas Frecuentes</h2>
+            
+            <div class="space-y-4 gs-reveal">
+                <!-- FAQ Item -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">¿Cuánto demora el desarrollo de una web?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        Depende de la complejidad, pero una Landing Page profesional suele tomar entre 2 a 3 semanas, mientras que una web corporativa completa puede llevar de 4 a 6 semanas. Nos enfocamos en la calidad sin perder agilidad.
+                    </div>
+                </div>
+                
+                <!-- FAQ Item -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">No tengo imágenes ni textos, ¿ustedes me ayudan?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        ¡Por supuesto! Podemos orientarte con el copywriting persuasivo y utilizar imágenes de stock premium curadas específicamente para tu rubro si no cuentas con material propio.
+                    </div>
+                </div>
+
+                <!-- FAQ Item -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">¿Mi web estará adaptada para celulares?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        100%. Hoy en día más del 70% del tráfico web proviene de dispositivos móviles. Diseñamos bajo el enfoque "Mobile-First" para asegurar que la experiencia sea impecable en cualquier pantalla.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-32 px-6 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white/5"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10 gs-reveal">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Es momento de jugar en las grandes ligas.</h2>
+            <p class="text-xl text-secondary mb-10 max-w-2xl mx-auto">
+                No pospongas más el crecimiento de tu empresa. Hablemos sobre cómo una web premium puede transformar la manera en que tus clientes te perciben.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/placeholder" target="_blank" class="px-8 py-4 bg-white text-background rounded-full font-semibold hover:bg-gray-200 transition-transform hover:scale-105 flex items-center justify-center gap-2">
+                    <i data-lucide="message-square" class="w-5 h-5"></i>
+                    Contactar por WhatsApp
+                </a>
+                <a href="mailto:siteflowuy@gmail.com" class="px-8 py-4 border border-white/10 bg-white/5 rounded-full font-semibold hover:bg-white/10 transition-colors flex items-center justify-center gap-2 text-white">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                    siteflowuy@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 bg-background pt-16 pb-8 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-12">
+            <div class="col-span-2">
+                <a href="#" class="text-xl font-bold tracking-tighter flex items-center gap-2 mb-4">
+                    <div class="w-5 h-5 rounded-full bg-white flex items-center justify-center">
+                        <div class="w-1.5 h-1.5 rounded-full bg-background"></div>
+                    </div>
+                    SiteFlow
+                </a>
+                <p class="text-secondary text-sm max-w-sm">
+                    Diseño web estratégico y desarrollo de landing pages premium en Uruguay. Enfocados en estética, rendimiento y conversión.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4 text-sm">Navegación</h4>
+                <ul class="space-y-2 text-sm text-secondary">
+                    <li><a href="#enfoque" class="hover:text-white transition-colors">Nuestro Enfoque</a></li>
+                    <li><a href="#servicios" class="hover:text-white transition-colors">Servicios</a></li>
+                    <li><a href="#estilos" class="hover:text-white transition-colors">Estilos Visuales</a></li>
+                    <li><a href="#proceso" class="hover:text-white transition-colors">Proceso de Trabajo</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4 text-sm">Contacto</h4>
+                <ul class="space-y-2 text-sm text-secondary">
+                    <li><a href="https://wa.me/placeholder" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> WhatsApp</a></li>
+                    <li><a href="mailto:siteflowuy@gmail.com" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> siteflowuy@gmail.com</a></li>
+                    <li><a href="https://instagram.com/SiteFlow.uy" target="_blank" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="instagram" class="w-4 h-4"></i> @SiteFlow.uy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-secondary">
+            <p>&copy; 2026 SiteFlow Uruguay. Todos los derechos reservados.</p>
+            <p class="mt-2 md:mt-0">Diseñado para convertir.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
