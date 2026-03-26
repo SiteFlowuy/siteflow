@@ -10,17 +10,17 @@ const translations = {
         'nav-cta-mobile': 'Hablemos por WhatsApp',
 
         // Hero
-        'hero-badge': 'Diseño web en Montevideo y Uruguay · español & inglés',
+        'hero-badge': 'Desde Uruguay · trabajamos con negocios de todo el mundo',
         'hero-availability': 'Solo 3 lugares disponibles este mes',
         'hero-h1-line1': 'Diseño Web en Uruguay',
-        'hero-h1-line2': 'que convierte visitas en clientes reales.',
-        'hero-p': 'Diseñamos páginas que generan consultas, reservas y ventas — no solo presencia digital. Para negocios en Uruguay y toda la región que quieren crecer de verdad.',
+        'hero-h1-line2': 'que convierte visitas en clientes, sin importar dónde estés.',
+        'hero-p': 'Diseñamos páginas que generan consultas, reservas y ventas — no solo presencia digital. Para negocios que quieren crecer de verdad, en cualquier parte del mundo.',
         'hero-cta1': 'Quiero más clientes',
         'hero-cta2': 'Ver trabajos realizados',
 
         // Problema
         'prob-h2': '¿Tu web en Uruguay no genera clientes?',
-        'prob-sub': 'Si reconocés alguno de estos síntomas, tu web te está costando dinero.',
+        'prob-sub': 'Si reconocés alguno de estos síntomas, tu web te está perdiendo clientes todos los días.',
         'prob-1': 'Se ve desactualizada o poco profesional comparada con la competencia',
         'prob-2': 'No aparece en Google cuando tus clientes te buscan por rubro',
         'prob-3': 'Los clientes entran pero no te llaman ni reservan',
@@ -31,17 +31,17 @@ const translations = {
         'prob-cta': 'Consultá sin compromiso',
 
         // Enfoque
-        'enf-h2-html': 'Diseño web estratégico<br>para negocios en Uruguay.',
+        'enf-h2-html': 'Diseño web estratégico<br>para negocios que piensan en grande.',
         'enf-p1-html': 'En <strong>SiteFlow</strong> tu sitio web no es un gasto técnico — es tu vendedor más eficiente, trabajando 24/7 sin sueldo.',
-        'enf-p2-html': 'Diseñamos en <strong>español e inglés</strong> para negocios que quieren llegar más lejos: desde el cliente local hasta el mercado internacional. Cada web, pensada para el idioma y la cultura de tu cliente ideal.',
+        'enf-p2-html': 'Somos uruguayos y trabajamos con negocios de todo el mundo. Diseñamos en <strong>español e inglés</strong> para que tu web llegue exactamente adonde está tu cliente ideal — sin barreras de idioma ni de fronteras.',
         'enf-stat1-label': 'ES + EN',
-        'enf-stat1-desc': 'Webs en español e inglés, sin costo adicional.',
+        'enf-stat1-desc': 'Webs bilingües para llegar a cualquier mercado, sin costo extra.',
         'enf-stat2-label': '75%',
         'enf-stat2-desc': 'De tus clientes juzgan tu credibilidad solo por tu web.',
 
         // Servicios
         'serv-h2': 'Servicios de diseño web en Uruguay',
-        'serv-sub': 'Diseño en español e inglés. Para negocios locales que piensan en grande.',
+        'serv-sub': 'Para negocios locales e internacionales que quieren una web que realmente trabaje para ellos.',
         'serv-badge': 'Más solicitado',
         'svc1-title': 'Landing Page de Alta Conversión',
         'svc1-desc': 'Un solo objetivo: que el visitante te contacte, reserve o compre. Copywriting persuasivo, diseño sin fricciones y disponible en español e inglés.',
@@ -57,7 +57,7 @@ const translations = {
         // Portafolio
         'port-badge': 'Proyectos en vivo — actualizados en tiempo real',
         'port-h2': 'Proyectos de diseño web en Uruguay',
-        'port-sub': 'Cada proyecto, diseñado para el rubro y el cliente ideal de ese negocio.',
+        'port-sub': 'Proyectos para negocios en Uruguay y el exterior. Cada web, diseñada para el rubro y el cliente ideal.',
         'port-live': 'Ver sitio en vivo',
         'port-cta-text': '¿Querés un resultado así para tu negocio?',
         'port-cta': 'Quiero una web así',
@@ -160,10 +160,10 @@ const translations = {
         'wa-sub': 'Respondemos en menos de 2 horas',
         'email-title': 'Email',
         'ig-title': 'Instagram',
-        'contact-microcopy': 'Trabajamos con negocios en Uruguay, Latinoamérica y mercados de habla inglesa. Cada proyecto arranca con una charla sin compromiso donde entendemos tus objetivos antes de cotizar.',
+        'contact-microcopy': 'Somos un estudio uruguayo que trabaja con negocios de cualquier parte del mundo. Cada proyecto arranca con una charla sin compromiso — ya sea por WhatsApp, Zoom o email.',
 
         // Footer
-        'footer-desc': 'Diseño web en español e inglés para negocios que quieren crecer. Uruguay y toda la región.',
+        'footer-desc': 'Estudio uruguayo de diseño web. Trabajamos con negocios de todo el mundo en español e inglés.',
         'footer-nav-title': 'Navegación',
         'footer-contact-title': 'Contacto',
         'footer-copy': '© 2026 SiteFlow Uruguay. Todos los derechos reservados.',
@@ -190,17 +190,17 @@ const translations = {
         'nav-cta-mobile': 'Chat on WhatsApp',
 
         // Hero
-        'hero-badge': 'Web design in Montevideo & Uruguay · Spanish & English',
+        'hero-badge': 'Based in Uruguay · we work with businesses worldwide',
         'hero-availability': 'Only 3 spots available this month',
         'hero-h1-line1': 'Web Design in Uruguay',
-        'hero-h1-line2': 'that turns visitors into real clients.',
-        'hero-p': 'We design pages that generate inquiries, bookings and sales — not just digital presence. For businesses in Uruguay and across the region that want to grow for real.',
+        'hero-h1-line2': 'that turns visitors into clients, wherever you are.',
+        'hero-p': 'We design pages that generate inquiries, bookings and sales — not just digital presence. For businesses that want to grow for real, anywhere in the world.',
         'hero-cta1': 'I want more clients',
         'hero-cta2': 'See our work',
 
         // Problema
         'prob-h2': 'Is your website failing to generate clients?',
-        'prob-sub': 'If you recognize any of these symptoms, your website is costing you money.',
+        'prob-sub': 'If you recognize any of these symptoms, your website is losing you clients every day.',
         'prob-1': 'It looks outdated or unprofessional compared to the competition',
         'prob-2': "It doesn't show up on Google when clients search for your services",
         'prob-3': "Visitors come but don't call or book",
@@ -211,17 +211,17 @@ const translations = {
         'prob-cta': 'Contact us, no commitment',
 
         // Enfoque
-        'enf-h2-html': "Strategic web design<br>for businesses in Uruguay.",
+        'enf-h2-html': "Strategic web design<br>for businesses that think big.",
         'enf-p1-html': 'At <strong>SiteFlow</strong>, your website is not a technical expense — it\'s your most efficient salesperson, working 24/7 with no salary.',
-        'enf-p2-html': 'We design in <strong>Spanish and English</strong> for businesses that want to reach further: from the local client to the international market. Every website, crafted for the language and culture of your ideal customer.',
+        'enf-p2-html': "We're a Uruguayan studio working with businesses worldwide. We design in <strong>Spanish and English</strong> so your website reaches exactly where your ideal client is — with no language or border barriers.",
         'enf-stat1-label': 'ES + EN',
-        'enf-stat1-desc': 'Websites in Spanish and English, at no extra cost.',
+        'enf-stat1-desc': 'Bilingual websites to reach any market, at no extra cost.',
         'enf-stat2-label': '75%',
         'enf-stat2-desc': 'Of your clients judge your credibility solely by your website.',
 
         // Servicios
         'serv-h2': 'Web design services in Uruguay',
-        'serv-sub': 'Design in Spanish and English. For local businesses thinking big.',
+        'serv-sub': 'For local and international businesses that want a website that actually works for them.',
         'serv-badge': 'Most popular',
         'svc1-title': 'High-Conversion Landing Page',
         'svc1-desc': 'One goal: get the visitor to contact, book or buy. Persuasive copywriting, frictionless design, available in Spanish and English.',
@@ -237,7 +237,7 @@ const translations = {
         // Portafolio
         'port-badge': 'Live projects — updated in real time',
         'port-h2': 'Web design projects in Uruguay',
-        'port-sub': 'Every project, designed for the niche and ideal client of that business.',
+        'port-sub': 'Projects for businesses in Uruguay and abroad. Every website designed for the niche and ideal client.',
         'port-live': 'View live site',
         'port-cta-text': 'Want results like this for your business?',
         'port-cta': 'I want a website like this',
@@ -340,10 +340,10 @@ const translations = {
         'wa-sub': 'We respond within 2 hours',
         'email-title': 'Email',
         'ig-title': 'Instagram',
-        'contact-microcopy': 'We work with businesses in Uruguay, Latin America and English-speaking markets. Every project starts with a no-commitment conversation where we understand your goals before quoting.',
+        'contact-microcopy': "We're a Uruguayan studio working with businesses from anywhere in the world. Every project starts with a no-commitment conversation — via WhatsApp, Zoom or email.",
 
         // Footer
-        'footer-desc': 'Web design in Spanish and English for businesses that want to grow. Uruguay and the entire region.',
+        'footer-desc': 'Uruguayan web design studio. We work with businesses worldwide in Spanish and English.',
         'footer-nav-title': 'Navigation',
         'footer-contact-title': 'Contact',
         'footer-copy': '© 2026 SiteFlow Uruguay. All rights reserved.',
