@@ -12,6 +12,9 @@
     <meta property="og:description" content="Webs profesionales para negocios locales. Resultados medibles, no solo estética.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://siteflow.uy">
+    <meta property="og:image" content="https://siteflow.uy/img/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta name="keywords" content="diseño web Uruguay, landing pages Uruguay, páginas web para negocios, diseño web profesional, agencias de diseño web">
     <meta name="author" content="SiteFlow">
     <link rel="canonical" href="https://siteflow.uy">
@@ -69,11 +72,31 @@
                 <i data-lucide="message-circle" class="w-4 h-4"></i>
                 Hablemos
             </a>
-            <button class="md:hidden text-white">
-                <i data-lucide="menu" class="w-6 h-6"></i>
+            <button id="mobile-menu-btn" class="md:hidden text-white" aria-label="Abrir menú">
+                <i id="mobile-menu-icon" data-lucide="menu" class="w-6 h-6"></i>
             </button>
         </div>
     </nav>
+
+    <!-- Menú mobile -->
+    <div id="mobile-menu" class="fixed inset-0 z-40 hidden">
+        <div class="absolute inset-0 bg-background/95 backdrop-blur-md"></div>
+        <div class="relative z-10 flex flex-col h-full px-6 pt-28 pb-10">
+            <nav class="flex flex-col gap-2 flex-grow">
+                <a href="#enfoque" class="mobile-nav-link text-2xl font-semibold py-4 border-b border-white/5 hover:text-white transition-colors text-secondary">Enfoque</a>
+                <a href="#servicios" class="mobile-nav-link text-2xl font-semibold py-4 border-b border-white/5 hover:text-white transition-colors text-secondary">Servicios</a>
+                <a href="#portafolio" class="mobile-nav-link text-2xl font-semibold py-4 border-b border-white/5 hover:text-white transition-colors text-secondary">Portafolio</a>
+                <a href="#proceso" class="mobile-nav-link text-2xl font-semibold py-4 border-b border-white/5 hover:text-white transition-colors text-secondary">Proceso</a>
+                <a href="#contacto" class="mobile-nav-link text-2xl font-semibold py-4 border-b border-white/5 hover:text-white transition-colors text-secondary">Contacto</a>
+            </nav>
+            <a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+vi+SiteFlow+y+me+interesa+una+web+para+mi+negocio.+%C2%BFTienen+disponibilidad%3F"
+               target="_blank"
+               class="w-full py-4 bg-white text-background rounded-full font-semibold text-center hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 mt-8">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                Hablemos por WhatsApp
+            </a>
+        </div>
+    </div>
 
     <!-- Hero Section -->
     <section class="relative pt-40 pb-20 md:pt-52 md:pb-32 px-6 overflow-hidden">
@@ -81,14 +104,14 @@
         <div class="max-w-4xl mx-auto text-center relative z-10 gs-reveal">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-xs font-medium text-secondary mb-8">
                 <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                Agencia de Diseño Web en Uruguay
+                Diseño web en español e inglés · Uruguay &amp; región
             </div>
             <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
                 Tu web actual está regalando<br>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">clientes a la competencia.</span>
             </h1>
             <p class="text-lg md:text-xl text-secondary mb-10 max-w-2xl mx-auto leading-relaxed">
-                Diseñamos páginas que generan consultas, reservas y ventas — no solo presencia digital. Para negocios en Uruguay que quieren crecer de verdad.
+                Diseñamos páginas que generan consultas, reservas y ventas — no solo presencia digital. Para negocios en Uruguay y toda la región que quieren crecer de verdad.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+vi+SiteFlow+y+me+interesa+una+web+para+mi+negocio.+%C2%BFTienen+disponibilidad%3F" target="_blank" class="w-full sm:w-auto px-8 py-4 bg-white text-background rounded-full font-semibold text-sm hover:bg-gray-200 transition-transform hover:scale-105 flex items-center justify-center gap-2">
@@ -162,22 +185,22 @@
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
             <div class="gs-reveal">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-tight">El diseño no es adorno.<br>Es estrategia.</h2>
-                <p class="text-secondary mb-6 text-lg leading-relaxed">
-                    En <strong>SiteFlow</strong> entendemos que tu sitio web no es un gasto técnico, es tu activo de ventas más importante trabajando 24/7.
-                </p>
-                <p class="text-secondary text-lg leading-relaxed mb-8">
-                    Mientras otras agencias se enfocan en hacer webs "lindas", nosotros diseñamos para generar <strong>confianza, diferenciación y resultados medibles</strong>. Convertimos visitantes curiosos en clientes seguros.
-                </p>
-                <div class="grid grid-cols-2 gap-6 pt-6 border-t border-white/10">
-                    <div>
-                        <h4 class="text-3xl font-bold mb-2">3s</h4>
-                        <p class="text-sm text-secondary">Para captar la atención de tu cliente ideal.</p>
-                    </div>
-                    <div>
-                        <h4 class="text-3xl font-bold mb-2">75%</h4>
-                        <p class="text-sm text-secondary">Juzga la credibilidad de tu empresa por tu web.</p>
-                    </div>
-                </div>
+<p class="text-secondary mb-6 text-lg leading-relaxed">
+    En <strong>SiteFlow</strong> tu sitio web no es un gasto técnico — es tu vendedor más eficiente, trabajando 24/7 sin sueldo.
+</p>
+<p class="text-secondary text-lg leading-relaxed mb-8">
+    Diseñamos en <strong>español e inglés</strong> para negocios que quieren llegar más lejos: desde el cliente local hasta el mercado internacional. Cada web, pensada para el idioma y la cultura de tu cliente ideal.
+</p>
+<div class="grid grid-cols-2 gap-6 pt-6 border-t border-white/10">
+    <div>
+        <h4 class="text-3xl font-bold mb-2">ES + EN</h4>
+        <p class="text-sm text-secondary">Webs en español e inglés, sin costo adicional.</p>
+    </div>
+    <div>
+        <h4 class="text-3xl font-bold mb-2">75%</h4>
+        <p class="text-sm text-secondary">De tus clientes juzgan tu credibilidad solo por tu web.</p>
+    </div>
+</div>
             </div>
             <div class="relative gs-reveal border border-white/10 rounded-2xl overflow-hidden aspect-square md:aspect-[4/3] bg-surface">
                 <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="Desarrollo Web Profesional" class="w-full h-full object-cover opacity-60">
@@ -191,32 +214,53 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16 gs-reveal">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Soluciones que escalan tu negocio</h2>
-                <p class="text-secondary max-w-2xl mx-auto">Sistemas digitales creados con un único propósito: que tu empresa crezca.</p>
+                <p class="text-secondary max-w-2xl mx-auto">Diseño en español e inglés. Para negocios locales que piensan en grande.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-6">
                 <!-- Service 1 -->
-                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal">
+                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal flex flex-col">
                     <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
                         <i data-lucide="layout-template" class="w-6 h-6 text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Landing Pages de Alta Conversión</h3>
-                    <p class="text-secondary text-sm leading-relaxed">Páginas de un solo objetivo diseñadas meticulosamente para captar leads o vender servicios específicos. Copywriting persuasivo y diseño sin fricciones.</p>
+                    <h3 class="text-xl font-semibold mb-3">Landing Page de Alta Conversión</h3>
+                    <p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Un solo objetivo: que el visitante te contacte, reserve o compre. Copywriting persuasivo, diseño sin fricciones y disponible en español e inglés.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <span class="text-sm font-semibold">Desde <span class="text-white">USD 350</span></span>
+                        <a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+me+interesa+una+Landing+Page.+%C2%BFPodemos+hablar%3F" target="_blank" class="text-xs text-secondary hover:text-white transition-colors flex items-center gap-1">
+                            Consultá <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                        </a>
+                    </div>
                 </div>
                 <!-- Service 2 -->
-                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal" style="transition-delay: 100ms;">
+                <div class="p-8 border border-white/20 rounded-2xl bg-surface hover:border-white/30 transition-all gs-reveal flex flex-col relative" style="transition-delay: 100ms;">
+                    <div class="absolute -top-3 left-8">
+                        <span class="px-3 py-1 bg-white text-background text-xs font-semibold rounded-full">Más solicitado</span>
+                    </div>
                     <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
                         <i data-lucide="globe" class="w-6 h-6 text-white"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Web Corporativa Premium</h3>
-                    <p class="text-secondary text-sm leading-relaxed">Tu oficina principal en internet. Una estructura robusta que comunica autoridad, presenta a tu equipo y detalla tus servicios con elegancia.</p>
+                    <p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Tu presencia digital completa. Estructura robusta, comunicación de autoridad y entrega bilingüe (ES/EN) para llegar a cualquier mercado.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <span class="text-sm font-semibold">Desde <span class="text-white">USD 650</span></span>
+                        <a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+me+interesa+una+Web+Corporativa.+%C2%BFPodemos+hablar%3F" target="_blank" class="text-xs text-secondary hover:text-white transition-colors flex items-center gap-1">
+                            Consultá <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                        </a>
+                    </div>
                 </div>
                 <!-- Service 3 -->
-                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal" style="transition-delay: 200ms;">
+                <div class="p-8 border border-white/5 rounded-2xl bg-surface hover:border-white/20 transition-all gs-reveal flex flex-col" style="transition-delay: 200ms;">
                     <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 border border-white/10">
                         <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Optimización y Rediseño</h3>
-                    <p class="text-secondary text-sm leading-relaxed">¿Ya tienes web pero no vende? Analizamos los puntos de fuga, modernizamos la interfaz y optimizamos el flujo de usuarios para maximizar resultados.</p>
+                    <p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">¿Ya tenés web pero no convierte? Analizamos los puntos de fuga, modernizamos el diseño y la adaptamos al idioma de tus clientes.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <span class="text-sm font-semibold">Desde <span class="text-white">USD 250</span></span>
+                        <a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+tengo+una+web+que+necesita+mejoras.+%C2%BFPodemos+hablar%3F" target="_blank" class="text-xs text-secondary hover:text-white transition-colors flex items-center gap-1">
+                            Consultá <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,7 +285,7 @@
                 <div class="group relative rounded-2xl overflow-hidden border border-white/5 bg-surface hover:border-white/20 transition-all duration-300 gs-reveal">
                     <div class="relative aspect-[16/10] overflow-hidden bg-surface">
                         <img
-                            src="https://api.screenshotone.com/take?url=https://siteflowuy.github.io/micaela-burgueno/&viewport_width=1280&viewport_height=800&format=webp&image_quality=85&access_key=YOUR_ACCESS_KEY"
+                            src="img/micaela-burgueno.webp"
                             alt="Web para Dra. Micaela Burgueño — Odontología"
                             class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                             loading="lazy"
@@ -284,7 +328,7 @@
                 <div class="group relative rounded-2xl overflow-hidden border border-white/5 bg-surface hover:border-white/20 transition-all duration-300 gs-reveal">
                     <div class="relative aspect-[16/10] overflow-hidden bg-surface">
                         <img
-                            src="https://api.screenshotone.com/take?url=https://siteflowuy.github.io/tallermecanico/&viewport_width=1280&viewport_height=800&format=webp&image_quality=85&access_key=YOUR_ACCESS_KEY"
+                            src="img/tallermecanico.webp"
                             alt="Web para Taller Mecánico"
                             class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                             loading="lazy"
@@ -325,7 +369,7 @@
                 <div class="group relative rounded-2xl overflow-hidden border border-white/5 bg-surface hover:border-white/20 transition-all duration-300 gs-reveal">
                     <div class="relative aspect-[16/10] overflow-hidden bg-surface">
                         <img
-                            src="https://api.screenshotone.com/take?url=https://siteflowuy.github.io/patobarber/&viewport_width=1280&viewport_height=800&format=webp&image_quality=85&access_key=YOUR_ACCESS_KEY"
+                            src="img/patobarber.webp"
                             alt="Web para Pato Barber"
                             class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                             loading="lazy"
@@ -366,7 +410,7 @@
                 <div class="group relative rounded-2xl overflow-hidden border border-white/5 bg-surface hover:border-white/20 transition-all duration-300 gs-reveal">
                     <div class="relative aspect-[16/10] overflow-hidden bg-surface">
                         <img
-                            src="https://api.screenshotone.com/take?url=https://siteflowuy.github.io/framesur/&viewport_width=1280&viewport_height=800&format=webp&image_quality=85&access_key=YOUR_ACCESS_KEY"
+                            src="img/framesur.webp"
                             alt="Web para Framesur"
                             class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                             loading="lazy"
@@ -433,7 +477,7 @@
                 <!-- Style: Minimalista Premium -->
                 <div class="group relative rounded-2xl overflow-hidden border border-white/10 bg-surface gs-reveal">
                     <div class="aspect-[4/3] bg-[#f5f5f7] p-6 relative flex flex-col justify-between">
-                        <div class="w-full h-4 bg-gray-200 rounded-full mb-4 w-1/3"></div>
+                        <div class="w-1/3 h-4 bg-gray-200 rounded-full mb-4"></div>
                         <div class="space-y-2">
                             <div class="w-full h-2 bg-gray-200 rounded-full"></div>
                             <div class="w-full h-2 bg-gray-200 rounded-full w-5/6"></div>
@@ -483,47 +527,70 @@
     <!-- Cómo Trabajamos (Proceso) -->
     <section id="proceso" class="py-24 px-6 border-t border-white/5 bg-surface/30">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold mb-16 tracking-tight text-center gs-reveal">Un proceso ordenado y sin fricciones</h2>
+            <div class="text-center mb-16 gs-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Un proceso ordenado y sin fricciones</h2>
+                <p class="text-secondary">Sabés exactamente qué pasa en cada etapa. Sin sorpresas.</p>
+            </div>
             
-            <div class="space-y-8">
+            <div class="space-y-4">
                 <!-- Step 1 -->
                 <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
-                    <div class="text-2xl font-bold text-white/20">01</div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-2">Análisis Estratégico</h4>
-                        <p class="text-secondary text-sm">No diseñamos a ciegas. Entendemos tu modelo de negocio, tu cliente ideal y tus objetivos comerciales para definir la estructura de la web.</p>
+                    <div class="text-2xl font-bold text-white/20 w-8 flex-shrink-0">01</div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <h4 class="text-lg font-semibold">Análisis Estratégico</h4>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-secondary">Día 1 — llamada de 30 min</span>
+                        </div>
+                        <p class="text-secondary text-sm">Entendemos tu negocio, tu cliente ideal y tus objetivos. Definimos la estructura y el mensaje antes de escribir una línea de código.</p>
+                        <p class="text-xs text-white/40 mt-2">✦ Entregás: info básica del negocio · Recibís: estructura propuesta</p>
                     </div>
                 </div>
                 <!-- Step 2 -->
                 <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
-                    <div class="text-2xl font-bold text-white/20">02</div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-2">Diseño y Prototipado</h4>
-                        <p class="text-secondary text-sm">Creamos la identidad visual y el layout. Te presentamos un mockup navegable para que apruebes el look & feel antes de escribir una línea de código.</p>
+                    <div class="text-2xl font-bold text-white/20 w-8 flex-shrink-0">02</div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <h4 class="text-lg font-semibold">Diseño y Prototipado</h4>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-secondary">Días 2–5</span>
+                        </div>
+                        <p class="text-secondary text-sm">Creamos la identidad visual y el layout. Te presentamos un mockup navegable para que apruebes el look &amp; feel antes de escribir una línea de código.</p>
+                        <p class="text-xs text-white/40 mt-2">✦ Entregás: aprobación del diseño · Recibís: mockup navegable</p>
                     </div>
                 </div>
                 <!-- Step 3 -->
                 <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
-                    <div class="text-2xl font-bold text-white/20">03</div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-2">Desarrollo Frontend</h4>
-                        <p class="text-secondary text-sm">Construimos la web con tecnologías modernas. Aseguramos tiempos de carga rápidos, responsive perfecto (mobile-first) y animaciones fluidas.</p>
+                    <div class="text-2xl font-bold text-white/20 w-8 flex-shrink-0">03</div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <h4 class="text-lg font-semibold">Desarrollo</h4>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-secondary">Días 6–14</span>
+                        </div>
+                        <p class="text-secondary text-sm">Construimos la web: mobile-first, carga rápida, animaciones fluidas y versión en español e inglés lista para publicar.</p>
+                        <p class="text-xs text-white/40 mt-2">✦ Entregás: textos e imágenes · Recibís: web funcional en staging</p>
                     </div>
                 </div>
                 <!-- Step 4 -->
                 <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
-                    <div class="text-2xl font-bold text-white/20">04</div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-2">Ajustes y SEO</h4>
-                        <p class="text-secondary text-sm">Revisión conjunta, optimización para motores de búsqueda (SEO On-page) y pruebas de rendimiento en todos los dispositivos.</p>
+                    <div class="text-2xl font-bold text-white/20 w-8 flex-shrink-0">04</div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <h4 class="text-lg font-semibold">Revisión y SEO</h4>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-secondary">Días 15–17</span>
+                        </div>
+                        <p class="text-secondary text-sm">Revisión conjunta, ajustes finales, SEO on-page y pruebas de rendimiento en todos los dispositivos.</p>
+                        <p class="text-xs text-white/40 mt-2">✦ Entregás: feedback · Recibís: web optimizada lista para publicar</p>
                     </div>
                 </div>
                 <!-- Step 5 -->
                 <div class="flex gap-6 p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/10 transition-colors gs-reveal">
-                    <div class="text-2xl font-bold text-white/20">05</div>
-                    <div>
-                        <h4 class="text-lg font-semibold mb-2">Lanzamiento</h4>
-                        <p class="text-secondary text-sm">Tu nueva sucursal digital abierta al mundo. Entregamos el proyecto funcionando y listo para recibir tráfico y convertir.</p>
+                    <div class="text-2xl font-bold text-white/20 w-8 flex-shrink-0">05</div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <h4 class="text-lg font-semibold">Lanzamiento</h4>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-green-500/10 border border-green-500/20 text-green-400">Día 18–21</span>
+                        </div>
+                        <p class="text-secondary text-sm">Tu web en vivo, conectada a tu dominio y lista para recibir clientes. Incluye 30 días de soporte post-lanzamiento para ajustes menores.</p>
+                        <p class="text-xs text-white/40 mt-2">✦ Recibís: web publicada + 30 días de soporte incluido</p>
                     </div>
                 </div>
             </div>
@@ -533,28 +600,99 @@
     <!-- Beneficios -->
     <section class="py-24 px-6 border-t border-white/5">
         <div class="max-w-7xl mx-auto text-center gs-reveal">
-            <h2 class="text-3xl md:text-4xl font-bold mb-12 tracking-tight">El retorno de invertir en calidad</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Lo que incluye cada proyecto</h2>
+            <p class="text-secondary mb-12 max-w-xl mx-auto">Sin sorpresas. Esto es lo que recibís en cada entrega.</p>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
-                    <i data-lucide="message-square-plus" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
-                    <h5 class="font-medium mb-1">Más Consultas</h5>
-                    <p class="text-xs text-secondary">Diseño enfocado a la acción.</p>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50 text-left">
+                    <i data-lucide="languages" class="w-8 h-8 mb-4 text-white/60"></i>
+                    <h5 class="font-medium mb-2">Español + Inglés</h5>
+                    <p class="text-xs text-secondary leading-relaxed">Tu web en los dos idiomas, sin costo extra. Llegás a más clientes desde el día uno.</p>
                 </div>
-                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
-                    <i data-lucide="shield-check" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
-                    <h5 class="font-medium mb-1">Mayor Confianza</h5>
-                    <p class="text-xs text-secondary">Proyecta solidez institucional.</p>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50 text-left">
+                    <i data-lucide="smartphone" class="w-8 h-8 mb-4 text-white/60"></i>
+                    <h5 class="font-medium mb-2">Mobile-first</h5>
+                    <p class="text-xs text-secondary leading-relaxed">Diseñada primero para celular. Perfecta en cualquier pantalla, sin excepciones.</p>
                 </div>
-                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
-                    <i data-lucide="award" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
-                    <h5 class="font-medium mb-1">Diferenciación</h5>
-                    <p class="text-xs text-secondary">Destaca sobre tu competencia.</p>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50 text-left">
+                    <i data-lucide="search" class="w-8 h-8 mb-4 text-white/60"></i>
+                    <h5 class="font-medium mb-2">SEO incluido</h5>
+                    <p class="text-xs text-secondary leading-relaxed">Optimización para que Google te encuentre cuando tus clientes te buscan por rubro.</p>
                 </div>
-                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50">
-                    <i data-lucide="smartphone" class="w-8 h-8 mb-4 mx-auto text-white/60"></i>
-                    <h5 class="font-medium mb-1">Omnicanalidad</h5>
-                    <p class="text-xs text-secondary">Perfecto en PC y móviles.</p>
+                <div class="p-6 border border-white/5 rounded-2xl bg-surface/50 text-left">
+                    <i data-lucide="zap" class="w-8 h-8 mb-4 text-white/60"></i>
+                    <h5 class="font-medium mb-2">Carga rápida</h5>
+                    <p class="text-xs text-secondary leading-relaxed">Velocidad optimizada. Una web lenta pierde el 53% de los visitantes antes de que vean algo.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="py-24 px-6 border-t border-white/5 bg-surface/30">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 gs-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Lo que dicen nuestros clientes</h2>
+                <p class="text-secondary">Negocios reales, resultados reales.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Testimonio 1 -->
+                <div class="p-8 rounded-2xl border border-white/5 bg-surface gs-reveal flex flex-col gap-6">
+                    <div class="flex gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                    </div>
+                    <p class="text-secondary text-sm leading-relaxed flex-grow">"Desde que lanzamos la web nueva empezamos a recibir consultas por WhatsApp casi todos los días. Antes nadie nos encontraba en Google."</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                        <div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-sm font-semibold flex-shrink-0">M</div>
+                        <div>
+                            <p class="text-sm font-medium">Micaela B.</p>
+                            <p class="text-xs text-secondary">Odontología — La Floresta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="p-8 rounded-2xl border border-white/5 bg-surface gs-reveal flex flex-col gap-6" style="transition-delay: 100ms;">
+                    <div class="flex gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                    </div>
+                    <p class="text-secondary text-sm leading-relaxed flex-grow">"Muy profesionales y rápidos. Nos entregaron la web en menos de tres semanas y el resultado superó lo que esperábamos. Vale cada peso."</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                        <div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-sm font-semibold flex-shrink-0">P</div>
+                        <div>
+                            <p class="text-sm font-medium">Pablo R.</p>
+                            <p class="text-xs text-secondary">Barbería — Montevideo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="p-8 rounded-2xl border border-white/5 bg-surface gs-reveal flex flex-col gap-6" style="transition-delay: 200ms;">
+                    <div class="flex gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                    </div>
+                    <p class="text-secondary text-sm leading-relaxed flex-grow">"Tenía miedo de que fuera complicado pero me guiaron en todo. La web quedó exactamente como yo quería y mis clientes la elogian constantemente."</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/5">
+                        <div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-sm font-semibold flex-shrink-0">C</div>
+                        <div>
+                            <p class="text-sm font-medium">Carlos M.</p>
+                            <p class="text-xs text-secondary">Taller Mecánico — Canelones</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -562,41 +700,68 @@
     <!-- FAQ -->
     <section class="py-24 px-6 border-t border-white/5 bg-surface/30">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl font-bold mb-12 text-center tracking-tight gs-reveal">Preguntas Frecuentes</h2>
+            <div class="text-center mb-12 gs-reveal">
+                <h2 class="text-3xl font-bold mb-4 tracking-tight">Preguntas frecuentes</h2>
+                <p class="text-secondary">Las dudas más comunes antes de arrancar.</p>
+            </div>
             
             <div class="space-y-4 gs-reveal">
-                <!-- FAQ Item -->
+
+                <!-- FAQ 1 -->
                 <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
                     <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
-                        <span class="font-medium">¿Cuánto demora el desarrollo de una web?</span>
+                        <span class="font-medium">¿Cuánto cuesta una web?</span>
                         <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
                     </button>
                     <div class="px-6 pb-6 text-sm text-secondary hidden content">
-                        Depende de la complejidad, pero una Landing Page profesional suele tomar entre 2 a 3 semanas, mientras que una web corporativa completa puede llevar de 4 a 6 semanas. Nos enfocamos en la calidad sin perder agilidad.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item -->
-                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
-                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
-                        <span class="font-medium">No tengo imágenes ni textos, ¿ustedes me ayudan?</span>
-                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
-                    </button>
-                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
-                        ¡Por supuesto! Podemos orientarte con el copywriting persuasivo y utilizar imágenes de stock premium curadas específicamente para tu rubro si no cuentas con material propio.
+                        Dependiendo del proyecto, los precios arrancan en USD 250 para un rediseño, USD 350 para una landing page y USD 650 para una web corporativa completa. Cada proyecto tiene su propia cotización — escribinos y te mandamos un presupuesto sin compromiso en menos de 24 horas.
                     </div>
                 </div>
 
-                <!-- FAQ Item -->
+                <!-- FAQ 2 -->
                 <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
                     <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
-                        <span class="font-medium">¿Mi web estará adaptada para celulares?</span>
+                        <span class="font-medium">¿Trabajamos aunque mi negocio sea pequeño?</span>
                         <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
                     </button>
                     <div class="px-6 pb-6 text-sm text-secondary hidden content">
-                        100%. Hoy en día más del 70% del tráfico web proviene de dispositivos móviles. Diseñamos bajo el enfoque "Mobile-First" para asegurar que la experiencia sea impecable en cualquier pantalla.
+                        Sí. La mayoría de nuestros clientes son negocios locales: barberías, consultorios, talleres, comercios. No necesitás ser una empresa grande para tener una web que venda. De hecho, una web profesional es lo que te hace competir de igual a igual con los grandes.
                     </div>
                 </div>
+
+                <!-- FAQ 3 -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">¿Qué pasa si no me gusta cómo queda?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        Antes de escribir una línea de código te mostramos un mockup completo de la web. Si no te convence, lo ajustamos. Solo arrancamos el desarrollo cuando das el ok. Incluimos hasta 2 rondas de cambios sin costo adicional.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">¿Por qué no contratar un freelance más barato?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        Podés. La diferencia es que un freelance barato entrega una web que se ve bien. Nosotros entregamos una web pensada para convertir visitas en clientes — con copywriting, estructura de funnel, SEO y versión bilingüe incluidos. El costo de una web que no convierte es mucho mayor que la diferencia de precio.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="border border-white/10 rounded-xl overflow-hidden bg-background faq-item">
+                    <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none">
+                        <span class="font-medium">No tengo fotos ni textos, ¿pueden ayudarme?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-secondary transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-sm text-secondary hidden content">
+                        Sí. Incluimos orientación en copywriting y selección de imágenes de stock premium curadas para tu rubro. Si en el futuro conseguís fotos propias, las incorporamos sin problema.
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -642,6 +807,19 @@
                                     name="nombre"
                                     required
                                     placeholder="Tu nombre"
+                                    class="w-full px-4 py-3 rounded-xl bg-background border border-white/10 text-white placeholder-secondary text-sm focus:outline-none focus:border-white/30 transition-colors"
+                                >
+                            </div>
+
+                            <!-- Email o WhatsApp -->
+                            <div>
+                                <label class="block text-sm font-medium mb-2 text-secondary" for="contacto">Email o WhatsApp</label>
+                                <input
+                                    type="text"
+                                    id="contacto"
+                                    name="contacto"
+                                    required
+                                    placeholder="tu@email.com o +598 9X XXX XXX"
                                     class="w-full px-4 py-3 rounded-xl bg-background border border-white/10 text-white placeholder-secondary text-sm focus:outline-none focus:border-white/30 transition-colors"
                                 >
                             </div>
@@ -718,14 +896,14 @@
                     </a>
 
                     <!-- Bloque Email -->
-                    <a href="mailto:siteflowuy@gmail.com"
+                    <a id="contact-email" href="#"
                        class="flex items-center gap-5 p-6 rounded-2xl border border-white/5 bg-surface hover:border-white/20 transition-all group">
                         <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
                             <i data-lucide="mail" class="w-5 h-5 text-secondary"></i>
                         </div>
                         <div>
                             <p class="font-semibold group-hover:text-white transition-colors">Email</p>
-                            <p class="text-secondary text-sm">siteflowuy@gmail.com</p>
+                            <p id="contact-email-text" class="text-secondary text-sm"></p>
                         </div>
                         <i data-lucide="arrow-up-right" class="w-4 h-4 text-secondary ml-auto group-hover:text-white transition-colors"></i>
                     </a>
@@ -755,49 +933,6 @@
         </div>
     </section>
 
-    <script>
-    (function() {
-        var form = document.getElementById('contact-form');
-        var successMsg = document.getElementById('form-success');
-        var submitBtn = document.getElementById('submit-btn');
-        var submitText = document.getElementById('submit-text');
-
-        if (!form) return;
-
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Estado cargando
-            submitBtn.disabled = true;
-            submitText.textContent = 'Enviando...';
-
-            var data = new FormData(form);
-
-            fetch(form.action, {
-                method: 'POST',
-                body: data,
-                headers: { 'Accept': 'application/json' }
-            })
-            .then(function(res) {
-                if (res.ok) {
-                    // Éxito: ocultar form, mostrar mensaje
-                    form.style.display = 'none';
-                    successMsg.classList.remove('hidden');
-                    lucide.createIcons();
-                } else {
-                    // Error del servidor
-                    submitText.textContent = 'Error al enviar. Intentá de nuevo.';
-                    submitBtn.disabled = false;
-                }
-            })
-            .catch(function() {
-                submitText.textContent = 'Sin conexión. Intentá de nuevo.';
-                submitBtn.disabled = false;
-            });
-        });
-    })();
-    </script>
-
     <!-- Footer -->
     <footer class="border-t border-white/10 bg-background pt-16 pb-8 px-6">
         <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-12">
@@ -809,23 +944,24 @@
                     SiteFlow
                 </a>
                 <p class="text-secondary text-sm max-w-sm">
-                    Diseño web estratégico y desarrollo de landing pages premium en Uruguay. Enfocados en estética, rendimiento y conversión.
+                    Diseño web en español e inglés para negocios que quieren crecer. Uruguay y toda la región.
                 </p>
             </div>
             <div>
                 <h4 class="font-semibold mb-4 text-sm">Navegación</h4>
                 <ul class="space-y-2 text-sm text-secondary">
-                    <li><a href="#enfoque" class="hover:text-white transition-colors">Nuestro Enfoque</a></li>
+                    <li><a href="#enfoque" class="hover:text-white transition-colors">Enfoque</a></li>
                     <li><a href="#servicios" class="hover:text-white transition-colors">Servicios</a></li>
-                    <li><a href="#estilos" class="hover:text-white transition-colors">Estilos Visuales</a></li>
-                    <li><a href="#proceso" class="hover:text-white transition-colors">Proceso de Trabajo</a></li>
+                    <li><a href="#portafolio" class="hover:text-white transition-colors">Portafolio</a></li>
+                    <li><a href="#proceso" class="hover:text-white transition-colors">Proceso</a></li>
+                    <li><a href="#contacto" class="hover:text-white transition-colors">Contacto</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="font-semibold mb-4 text-sm">Contacto</h4>
                 <ul class="space-y-2 text-sm text-secondary">
                     <li><a href="https://wa.me/598XXXXXXXXX?text=Hola%2C+vi+SiteFlow+y+me+interesa+una+web+para+mi+negocio.+%C2%BFTienen+disponibilidad%3F" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> WhatsApp</a></li>
-                    <li><a href="mailto:siteflowuy@gmail.com" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> siteflowuy@gmail.com</a></li>
+                    <li><span id="footer-email" class="flex items-center gap-2 text-secondary text-sm cursor-pointer"></span></li>
                     <li><a href="https://instagram.com/SiteFlow.uy" target="_blank" class="hover:text-white transition-colors flex items-center gap-2"><i data-lucide="instagram" class="w-4 h-4"></i> @SiteFlow.uy</a></li>
                 </ul>
             </div>
@@ -837,7 +973,6 @@
     </footer>
 
     <!-- Scripts -->
-    <script data-cfasync="false" src="/cdn-cgi/l/email-protection#00000000"></script>
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -847,18 +982,10 @@
     <a id="whatsapp-float"
        href="https://wa.me/598XXXXXXXXX?text=Hola%2C+vi+SiteFlow+y+me+interesa+una+web+para+mi+negocio.+%C2%BFTienen+disponibilidad%3F"
        target="_blank"
-       style="position:fixed;bottom:28px;right:28px;background:#25D366;color:#fff;border-radius:50px;padding:13px 22px;font-weight:600;font-size:14px;font-family:Inter,sans-serif;text-decoration:none;z-index:999;display:flex;align-items:center;gap:8px;opacity:0;transition:opacity 0.5s,transform 0.2s;box-shadow:0 4px 24px rgba(37,211,102,0.35);"
-       onmouseover="this.style.transform='scale(1.05)'"
-       onmouseout="this.style.transform='scale(1)'">
+       class="whatsapp-float">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         Hablar ahora
     </a>
-    <script>
-        setTimeout(function() {
-            var btn = document.getElementById('whatsapp-float');
-            if (btn) btn.style.opacity = '1';
-        }, 5000);
-    </script>
 
 </body>
 </html>
