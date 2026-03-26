@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    initLanguage();
+
     // #1 — Centralizar WhatsApp
     const WA_NUMBER = '598XXXXXXXXX';
     const WA_MSG = 'Hola%2C+vi+SiteFlow+y+me+interesa+una+web+para+mi+negocio.+%C2%BFTienen+disponibilidad%3F';
@@ -140,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const a = document.createElement('a');
         a.href = 'mailto:' + mail;
         a.textContent = mail;
-        a.className = 'hover:text-white transition-colors';
+        a.className = 'hover:text-white transition-colors flex items-center';
         const icon = document.createElement('i');
         icon.setAttribute('data-lucide', 'mail');
         icon.className = 'w-4 h-4 mr-2 flex-shrink-0';
