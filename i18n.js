@@ -10,15 +10,16 @@ const translations = {
         'nav-cta-mobile': 'Hablemos por WhatsApp',
 
         // Hero
-        'hero-badge': 'Diseño web en español e inglés · Uruguay & región',
-        'hero-h1-line1': 'Tu web actual está regalando',
-        'hero-h1-line2': 'clientes a la competencia.',
+        'hero-badge': 'Diseño web en Montevideo y Uruguay · español & inglés',
+        'hero-availability': 'Solo 3 lugares disponibles este mes',
+        'hero-h1-line1': 'Diseño Web en Uruguay',
+        'hero-h1-line2': 'que convierte visitas en clientes reales.',
         'hero-p': 'Diseñamos páginas que generan consultas, reservas y ventas — no solo presencia digital. Para negocios en Uruguay y toda la región que quieren crecer de verdad.',
         'hero-cta1': 'Quiero más clientes',
         'hero-cta2': 'Ver trabajos realizados',
 
         // Problema
-        'prob-h2': '¿Tu web tiene alguno de estos problemas?',
+        'prob-h2': '¿Tu web en Uruguay no genera clientes?',
         'prob-sub': 'Si reconocés alguno de estos síntomas, tu web te está costando dinero.',
         'prob-1': 'Se ve desactualizada o poco profesional comparada con la competencia',
         'prob-2': 'No aparece en Google cuando tus clientes te buscan por rubro',
@@ -30,7 +31,7 @@ const translations = {
         'prob-cta': 'Consultá sin compromiso',
 
         // Enfoque
-        'enf-h2-html': 'El diseño no es adorno.<br>Es estrategia.',
+        'enf-h2-html': 'Diseño web estratégico<br>para negocios en Uruguay.',
         'enf-p1-html': 'En <strong>SiteFlow</strong> tu sitio web no es un gasto técnico — es tu vendedor más eficiente, trabajando 24/7 sin sueldo.',
         'enf-p2-html': 'Diseñamos en <strong>español e inglés</strong> para negocios que quieren llegar más lejos: desde el cliente local hasta el mercado internacional. Cada web, pensada para el idioma y la cultura de tu cliente ideal.',
         'enf-stat1-label': 'ES + EN',
@@ -39,7 +40,7 @@ const translations = {
         'enf-stat2-desc': 'De tus clientes juzgan tu credibilidad solo por tu web.',
 
         // Servicios
-        'serv-h2': 'Soluciones que escalan tu negocio',
+        'serv-h2': 'Servicios de diseño web en Uruguay',
         'serv-sub': 'Diseño en español e inglés. Para negocios locales que piensan en grande.',
         'serv-badge': 'Más solicitado',
         'svc1-title': 'Landing Page de Alta Conversión',
@@ -55,7 +56,7 @@ const translations = {
 
         // Portafolio
         'port-badge': 'Proyectos en vivo — actualizados en tiempo real',
-        'port-h2': 'Trabajos realizados',
+        'port-h2': 'Proyectos de diseño web en Uruguay',
         'port-sub': 'Cada proyecto, diseñado para el rubro y el cliente ideal de ese negocio.',
         'port-live': 'Ver sitio en vivo',
         'port-cta-text': '¿Querés un resultado así para tu negocio?',
@@ -75,7 +76,7 @@ const translations = {
         'est-s3-ideal': 'Ideal para: Startups, Agencias de Marketing, Software.',
 
         // Proceso
-        'proc-h2': 'Un proceso ordenado y sin fricciones',
+        'proc-h2': 'Cómo trabajamos: diseño web en 21 días',
         'proc-sub': 'Sabés exactamente qué pasa en cada etapa. Sin sorpresas.',
         'proc-s1-title': 'Análisis Estratégico',
         'proc-s1-tag': 'Día 1 — llamada de 30 min',
@@ -121,7 +122,7 @@ const translations = {
         'test-3-role': 'Taller Mecánico — Canelones',
 
         // FAQ
-        'faq-h2': 'Preguntas frecuentes',
+        'faq-h2': 'Preguntas frecuentes sobre diseño web en Uruguay',
         'faq-sub': 'Las dudas más comunes antes de arrancar.',
         'faq-q1': '¿Cuánto cuesta una web?',
         'faq-a1': 'Dependiendo del proyecto, los precios arrancan en USD 250 para un rediseño, USD 350 para una landing page y USD 650 para una web corporativa completa. Cada proyecto tiene su propia cotización — escribinos y te mandamos un presupuesto sin compromiso en menos de 24 horas.',
@@ -153,8 +154,6 @@ const translations = {
         'form-rubro-6': 'Comercio local',
         'form-rubro-7': 'Servicios profesionales',
         'form-rubro-8': 'Otro',
-        'form-label-mensaje': '¿Qué necesitás?',
-        'form-placeholder-mensaje': 'Contanos brevemente sobre tu negocio y qué estás buscando...',
         'form-submit': 'Enviar consulta',
         'form-privacy': 'Sin spam. Tu info no se comparte con nadie.',
         'wa-title': 'WhatsApp',
@@ -191,15 +190,16 @@ const translations = {
         'nav-cta-mobile': 'Chat on WhatsApp',
 
         // Hero
-        'hero-badge': 'Web design in Spanish & English · Uruguay & region',
-        'hero-h1-line1': 'Your current website is giving away',
-        'hero-h1-line2': 'clients to the competition.',
+        'hero-badge': 'Web design in Montevideo & Uruguay · Spanish & English',
+        'hero-availability': 'Only 3 spots available this month',
+        'hero-h1-line1': 'Web Design in Uruguay',
+        'hero-h1-line2': 'that turns visitors into real clients.',
         'hero-p': 'We design pages that generate inquiries, bookings and sales — not just digital presence. For businesses in Uruguay and across the region that want to grow for real.',
         'hero-cta1': 'I want more clients',
         'hero-cta2': 'See our work',
 
         // Problema
-        'prob-h2': 'Does your website have any of these problems?',
+        'prob-h2': 'Is your website failing to generate clients?',
         'prob-sub': 'If you recognize any of these symptoms, your website is costing you money.',
         'prob-1': 'It looks outdated or unprofessional compared to the competition',
         'prob-2': "It doesn't show up on Google when clients search for your services",
@@ -211,7 +211,7 @@ const translations = {
         'prob-cta': 'Contact us, no commitment',
 
         // Enfoque
-        'enf-h2-html': "Design is not decoration.<br>It's strategy.",
+        'enf-h2-html': "Strategic web design<br>for businesses in Uruguay.",
         'enf-p1-html': 'At <strong>SiteFlow</strong>, your website is not a technical expense — it\'s your most efficient salesperson, working 24/7 with no salary.',
         'enf-p2-html': 'We design in <strong>Spanish and English</strong> for businesses that want to reach further: from the local client to the international market. Every website, crafted for the language and culture of your ideal customer.',
         'enf-stat1-label': 'ES + EN',
@@ -220,7 +220,7 @@ const translations = {
         'enf-stat2-desc': 'Of your clients judge your credibility solely by your website.',
 
         // Servicios
-        'serv-h2': 'Solutions that scale your business',
+        'serv-h2': 'Web design services in Uruguay',
         'serv-sub': 'Design in Spanish and English. For local businesses thinking big.',
         'serv-badge': 'Most popular',
         'svc1-title': 'High-Conversion Landing Page',
@@ -236,7 +236,7 @@ const translations = {
 
         // Portafolio
         'port-badge': 'Live projects — updated in real time',
-        'port-h2': 'Our work',
+        'port-h2': 'Web design projects in Uruguay',
         'port-sub': 'Every project, designed for the niche and ideal client of that business.',
         'port-live': 'View live site',
         'port-cta-text': 'Want results like this for your business?',
@@ -256,7 +256,7 @@ const translations = {
         'est-s3-ideal': 'Ideal for: Startups, Marketing agencies, Software.',
 
         // Proceso
-        'proc-h2': 'An organized, frictionless process',
+        'proc-h2': 'How we work: web design in 21 days',
         'proc-sub': 'You know exactly what happens at each stage. No surprises.',
         'proc-s1-title': 'Strategic Analysis',
         'proc-s1-tag': 'Day 1 — 30-min call',
@@ -302,7 +302,7 @@ const translations = {
         'test-3-role': 'Auto Shop — Canelones',
 
         // FAQ
-        'faq-h2': 'Frequently asked questions',
+        'faq-h2': 'FAQ about web design in Uruguay',
         'faq-sub': 'The most common questions before getting started.',
         'faq-q1': 'How much does a website cost?',
         'faq-a1': "Depending on the project, prices start at USD 250 for a redesign, USD 350 for a landing page and USD 650 for a full corporate website. Each project has its own quote — reach out and we'll send you a no-commitment estimate in under 24 hours.",
@@ -334,8 +334,6 @@ const translations = {
         'form-rubro-6': 'Local retail',
         'form-rubro-7': 'Professional services',
         'form-rubro-8': 'Other',
-        'form-label-mensaje': 'What do you need?',
-        'form-placeholder-mensaje': "Tell us briefly about your business and what you're looking for...",
         'form-submit': 'Send inquiry',
         'form-privacy': 'No spam. Your info is never shared.',
         'wa-title': 'WhatsApp',
