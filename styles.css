@@ -65,3 +65,46 @@ html, body {
 .email-link::after {
     content: attr(data-user) "@" attr(data-domain);
 }
+/* FAQ Accordion — SiteFlow */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+  transition: max-height 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              padding 0.35s ease;
+}
+
+.faq-item.is-open .faq-answer {
+  max-height: 300px;
+  padding-bottom: 1.5rem;
+}
+
+.faq-item .faq-chevron {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.faq-item.is-open .faq-chevron {
+  transform: rotate(180deg);
+}
+
+/* Language overlay */
+#lang-overlay {
+  display: none;
+}
+
+#lang-overlay.is-visible {
+  display: flex;
+}
+
+/* Portfolio image fallback */
+.portfolio-img {
+  display: block;
+}
+
+.portfolio-img.img-error {
+  display: none;
+}
+
+.portfolio-img.img-error ~ .portfolio-fallback {
+  display: flex !important;
+}

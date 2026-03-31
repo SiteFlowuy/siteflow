@@ -14,6 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lucide.createIcons();
 
+    // Portfolio image error handling
+    document.querySelectorAll('.portfolio-img').forEach(img => {
+        img.addEventListener('error', () => {
+            img.classList.add('img-error');
+        });
+        // Si ya falló antes de que JS cargara
+        if (!img.complete || img.naturalWidth === 0) {
+            img.classList.add('img-error');
+        }
+    });
+
     // Animaciones scroll
     const revealElements = document.querySelectorAll('.gs-reveal');
     revealElements.forEach((element) => {
@@ -30,27 +41,25 @@ document.addEventListener('DOMContentLoaded', () => {
         );
     });
 
-    // FAQ accordion — #4 aria-expanded
+    // FAQ accordion — is-open pattern
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {
         const button = item.querySelector('button');
-        const content = item.querySelector('.content');
-
         button.setAttribute('aria-expanded', 'false');
 
         button.addEventListener('click', () => {
-            const isOpen = !content.classList.contains('hidden');
-            faqItems.forEach(otherItem => {
-                otherItem.querySelector('.content').classList.add('hidden');
-                otherItem.querySelector('button').lastElementChild.style.transform = 'rotate(0deg)';
-                otherItem.querySelector('button').setAttribute('aria-expanded', 'false');
-                otherItem.classList.remove('border-white/30');
+            const isOpen = item.classList.contains('is-open');
+
+            // Cerrar todos
+            faqItems.forEach(i => {
+                i.classList.remove('is-open');
+                i.querySelector('button').setAttribute('aria-expanded', 'false');
             });
+
+            // Abrir el clickeado si estaba cerrado
             if (!isOpen) {
-                content.classList.remove('hidden');
-                button.lastElementChild.style.transform = 'rotate(180deg)';
+                item.classList.add('is-open');
                 button.setAttribute('aria-expanded', 'true');
-                item.classList.add('border-white/30');
             }
         });
     });
@@ -139,10 +148,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const footerEmail = document.getElementById('footer-email');
     if (footerEmail) {
+        footerEmail.innerHTML = '';
         const a = document.createElement('a');
         a.href = 'mailto:' + mail;
         a.textContent = mail;
-        a.className = 'hover:text-white transition-colors flex items-center';
+        a.className = 'hover:text-white transition-colors flex items-center gap-2';
         const icon = document.createElement('i');
         icon.setAttribute('data-lucide', 'mail');
         icon.className = 'w-4 h-4 mr-2 flex-shrink-0';
@@ -155,6 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactEmailText = document.getElementById('contact-email-text');
     if (contactEmail && contactEmailText) {
         contactEmail.href = 'mailto:' + mail;
+        contactEmailText.innerHTML = '';
         contactEmailText.textContent = mail;
     }
 

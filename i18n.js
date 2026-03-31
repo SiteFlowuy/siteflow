@@ -389,7 +389,7 @@ function applyLanguage(lang) {
 
 function selectLanguage(lang) {
     applyLanguage(lang);
-    document.getElementById('lang-overlay').style.display = 'none';
+    document.getElementById('lang-overlay').classList.remove('is-visible');
 }
 
 function initLanguage() {
@@ -397,6 +397,6 @@ function initLanguage() {
     if (saved && translations[saved]) {
         applyLanguage(saved);
     } else {
-        document.getElementById('lang-overlay').style.display = 'flex';
+        document.getElementById('lang-overlay').classList.add('is-visible');
     }
 }

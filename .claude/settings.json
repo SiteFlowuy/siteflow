@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Users/toble/OneDrive/Desktop/SiteFlow/styles.css\":*)"
+    ]
+  }
+}
